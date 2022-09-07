@@ -1,2 +1,2 @@
 # rekrutacjaHorus
-Rozwiązanie zadania rekrutacyjnego dla firmy Horus.
+Rozwiązanie zadania rekrutacyjnego.
