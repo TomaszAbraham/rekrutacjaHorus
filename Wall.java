@@ -10,7 +10,7 @@ public class Wall implements Structure {
 	//zwraca pierwszy napotkany element o danym kolorze "opakowany" w objekt Optional
 	public Optional findBlockByColor(String color) {
 		if (color == null){
-            throw new IllegalArgumentException("Color is null!");
+            		throw new IllegalArgumentException("Color is null!");
 		}
 		Optional<CompositeBlock> result = Optional.empty();
 		
@@ -26,8 +26,9 @@ public class Wall implements Structure {
 	// zwraca wszystkie elementy z danego materiału
 	public List findBlocksByMaterial(String material) {
 		if (material == null){
-            throw new IllegalArgumentException("Material is null!");
+            		throw new IllegalArgumentException("Material is null!");
 		}
+		
 		List<CompositeBlock> lista = new LinkedList<>();
 		
 		for(CompositeBlock element: this.blocks) {
