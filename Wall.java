@@ -40,9 +40,7 @@ public class Wall implements Structure {
 	//zwraca liczbę wszystkich elementów tworzących strukturę
 	public int count() {
 		return this.blocks.size();
-	}
-	
-	
+	}	
 }
 
 	
