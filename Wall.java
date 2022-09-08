@@ -13,7 +13,7 @@ public class Wall implements Structure {
 			throw new IllegalArgumentException("Color is null!");
 		}
 		return blocks.stream()
-				.filter(b->b.getColor().equals(color))
+		        .filter(b->b.getColor().equals(color))
 				.findAny();
 	}
 
@@ -32,7 +32,6 @@ public class Wall implements Structure {
 		return this.blocks.size();
 	}	
 }
-
 	
 
 	
