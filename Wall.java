@@ -7,7 +7,7 @@ import java.util.Optional;
 public class Wall implements Structure {
 	private List<CompositeBlock> blocks;
 	
-	//zwraca pierwszy napotkany element o danym kolorze "opakowany" w objekt Optional
+	//zwraca dowolnyy element o danym kolorze "opakowany" w objekt Optional
 	public Optional findBlockByColor(String color) {
 		if (color == null){
 			throw new IllegalArgumentException("Color is null!");
