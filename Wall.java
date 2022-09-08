@@ -17,7 +17,7 @@ public class Wall implements Structure {
 				.findAny();
 	}
 
-	// zwraca wszystkie elementy z danego materiału
+	// zwraca wszystkie elementy z danego materiału w postaci Listy
 	public List findBlocksByMaterial(String material) {
 		if (material == null){
 			throw new IllegalArgumentException("Material is null!");
